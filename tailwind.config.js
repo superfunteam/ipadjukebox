@@ -1,6 +1,5 @@
-import { defineConfig } from '@tailwindcss/vite'
-
-export default defineConfig({
+/** @type {import('tailwindcss').Config} */
+module.exports = {
   content: ["./*.html"],
   theme: {
     extend: {
@@ -9,4 +8,5 @@ export default defineConfig({
       }
     },
   },
-})
+  plugins: [],
+}
